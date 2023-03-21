@@ -44,13 +44,22 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background-color: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
     background-position: top, left;
     height: 200px;
 }
-
 section#login > div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+div#formulario > p {
+    font-size: 1em;
 }
